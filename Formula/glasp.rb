@@ -5,7 +5,7 @@ class Glasp < Formula
   license "MIT"
 
   on_macos do
-    if Hardware::CPU.arm?
+    if Hardware::CPU.arm64?
       url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_darwin_arm64.tar.gz"
       sha256 "3aa1788c0ce1c2f4accda120287f3a391fb4af0693f66868d4eb33c82e6f6fe6"
     else
@@ -15,7 +15,7 @@ class Glasp < Formula
   end
 
   on_linux do
-    if Hardware::CPU.arm?
+    if Hardware::CPU.arm64?
       url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_linux_arm64.tar.gz"
       sha256 "12c85c599de0975fa22e2dfbd6016050ab44973d78c4555e523969f70cee4565"
     else
