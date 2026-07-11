@@ -15,6 +15,17 @@ Or install a formula directly without tapping first:
 brew install takihito/tap/<formula>
 ```
 
+Since this tap is unsigned, Homebrew may refuse to load its formulae with an
+"untrusted tap" error. Trust it with:
+
+```bash
+# Trust a single formula
+brew trust --formula takihito/tap/<formula>
+
+# Or trust the whole tap
+brew trust takihito/tap
+```
+
 ## Formulae
 
 | Formula | Description |
