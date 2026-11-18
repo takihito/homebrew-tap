@@ -1,26 +1,26 @@
 class Glasp < Formula
   desc "CLI tool for developing, managing, and deploying GAS code locally"
   homepage "https://github.com/takihito/glasp"
-  version "0.4.0"
+  version "0.5.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm64?
-      url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_darwin_arm64.tar.gz"
-      sha256 "3aa1788c0ce1c2f4accda120287f3a391fb4af0693f66868d4eb33c82e6f6fe6"
+      url "https://github.com/takihito/glasp/releases/download/v0.5.3/glasp_v0.5.3_darwin_arm64.tar.gz"
+      sha256 "6ec87293a67ef0444feda7d98fe573afb4d4b3454a59b7b06018a013332f8770"
     else
-      url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_darwin_amd64.tar.gz"
-      sha256 "6b38cdafd16eb4941b653bbe9f633e443174c8fdb96f2650e80d50df3d81eb3f"
+      url "https://github.com/takihito/glasp/releases/download/v0.5.3/glasp_v0.5.3_darwin_amd64.tar.gz"
+      sha256 "5b5adb21897f5aa7d16510d5b154e8c60ce6955e165cb09f29ea6b612a25315b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm64?
-      url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_linux_arm64.tar.gz"
-      sha256 "12c85c599de0975fa22e2dfbd6016050ab44973d78c4555e523969f70cee4565"
+      url "https://github.com/takihito/glasp/releases/download/v0.5.3/glasp_v0.5.3_linux_arm64.tar.gz"
+      sha256 "99290ca62409abd0bbdb0a466536d085f3d7f44eac67c0101d2bc03d0fa8a96c"
     else
-      url "https://github.com/takihito/glasp/releases/download/v0.4.0/glasp_v0.4.0_linux_amd64.tar.gz"
-      sha256 "7d705ba342b7a7ac42fa281313fa2a0f17725085fa1e756e0062fcf5931adfaf"
+      url "https://github.com/takihito/glasp/releases/download/v0.5.3/glasp_v0.5.3_linux_amd64.tar.gz"
+      sha256 "831ffb7fed698abe525a795f1c76ba35b5f5150ffe44577fc645e2dcd3d7ce5e"
     end
   end
 
